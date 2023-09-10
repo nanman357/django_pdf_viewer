@@ -1,7 +1,4 @@
-from django.shortcuts import render
 from django.db import models
-from django.shortcuts import render, redirect
-from .forms import PDFUploadForm
 from .utils import extract_dataframes_from_pdf
 from django.shortcuts import render, redirect
 from .models import PDF
